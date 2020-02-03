@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-              sh 'echo "Hello World"'
+              sh 'echo "Jenkins test"'
                 sh 'npm --version'
                 sh 'npm run build'
                 sh 'npm run start'
