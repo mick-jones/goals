@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         Learning Jenkins
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
