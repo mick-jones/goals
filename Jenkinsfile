@@ -4,10 +4,11 @@ pipeline {
         stage('build') {
             steps {
               sh 'echo "Jenkins test"'
-                sh 'npm --version'
-                sh 'npm install'
-                sh 'npm run build'
-                sh 'npm run start'
+              sh 'node --version'
+              sh 'npm --version'
+              sh 'npm install'
+              sh 'npm run build'
+              sh 'npm run start'
             }
         }
     }
